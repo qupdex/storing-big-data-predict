@@ -43,7 +43,7 @@ def get_current_time(second_delta):
     return current_delta_time
 
 def price_generator(old_price, volatility_perc):
-    """A function to generate a price of a ticker, given an intialisation
+    """A function to generate a price of a ticker, given an initialisation
     value and volatility percentage.
 
     Args:
